@@ -1,0 +1,39 @@
+/* Estilos globales de la página */
+
+/* Variables de los colores */
+:root {
+  --color-primary: #FF6B6B;
+  --color-secondary: #4ECDC4;
+  --color-bg: #F7F7F7;
+  --color-text: #000000;
+  --color-accent: #FFE66D;
+  --color-purple: #A393EB;
+}
+
+/* Estilos de todo el body */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+
+html {
+  margin: 0;
+  height: 100%;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+}

@@ -1,0 +1,36 @@
+.home-section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.home-section h1 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+.home-section p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.home-section img {
+  display: block;
+  margin: 1.5rem auto;
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.home-section img:hover {
+  transform: scale(1.02);
+}

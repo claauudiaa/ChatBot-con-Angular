@@ -1,0 +1,20 @@
+/* CSS de footer */
+#footer {
+  background-color: var(--color-purple);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--color-bg);
+  margin: 0.5rem;
+  border-radius: 3rem;
+}
+
+#footer a {
+  color: var(--color-bg);
+  margin: 0 1rem;
+}
+
+#footer a:hover {
+  color: var(--color-accent);
+  font-weight: bold;
+}

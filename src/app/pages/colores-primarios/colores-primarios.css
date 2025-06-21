@@ -1,0 +1,44 @@
+.primarios-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  text-align: justify;
+}
+
+.primarios-section h1 {
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.primarios-section h2 {
+  color: var(--color-secondary);
+  margin-top: 1.5rem;
+}
+
+.primarios-section ul {
+  list-style: disc inside;
+  margin: 1rem 0;
+}
+
+.primarios-section p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.primarios-section img {
+  display: block;
+  margin: 1.5rem auto;
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.primarios-section img:hover {
+  transform: scale(1.02);
+}
